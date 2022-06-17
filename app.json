@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#404040",
+    "navigationBarTitleText": "project",
+    "navigationBarTextStyle":"white",
+    "backgroundColor": "#000"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
