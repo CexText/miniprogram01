@@ -1,0 +1,4 @@
+<view class="header">
+  <input type="text"/>
+  <button class="add">添加</button>
+</view>

@@ -1,0 +1,19 @@
+<view class="box" hover-class="active">132</view>
+<text>{{count}}</text>
+<button bindtap="changeCount">change</button>
+
+<view wx:for="{{arr}}" wx:key="index" class="for">
+  {{item.name}}
+  后代:
+  <view wx:for="{{item.children}}" wx:key="index" wx:for-item="child">
+    {{child.name}}
+  </view>
+</view>
+
+<scroll-view class="scroll" scroll-y>
+  <view>1</view>
+  <view>2</view>
+  <view>3</view>
+  <view>4</view>
+  <view>5</view>
+</scroll-view>

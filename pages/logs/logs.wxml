@@ -1,6 +1,9 @@
 <!--logs.wxml-->
 <view class="container log-list">
-  <block wx:for="{{logs}}" wx:key="timeStamp" wx:for-item="log">
-    <text class="log-item">{{index + 1}}. {{log.date}}</text>
-  </block>
+  <view class="box">123</view>
+  <text>123</text>
+  <text>456</text>
+  <button>按钮</button>
+  <input type="text"/>
+  <image src="./wsm002.png" mode="widthFix"></image>
 </view>

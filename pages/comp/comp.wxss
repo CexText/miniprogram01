@@ -1,0 +1,13 @@
+.box{
+  height: 40px;
+  background-color: hotpink;
+}
+.active{
+  background-color: deepskyblue;
+}
+.scroll{
+  height: 40rpx;
+}
+.for{
+  margin: 40rpx 0;
+}

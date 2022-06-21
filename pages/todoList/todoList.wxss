@@ -1,0 +1,27 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100rpx;
+  background-color: #404040;
+  color: #fff;
+  border-top: 1px solid #777;
+}
+.header input{
+  flex: 2;
+  display: inline-block;
+  margin: 25rpx;
+  padding: 0 10rpx;
+  width: 500rpx;
+  height: 50rpx;
+  border-radius: 8rpx;
+  background-color: #fff;
+  color: #000;
+}
+.header button{
+  flex: 0.4;
+  margin: 0;
+  padding: 0;
+  width: 80rpx;
+  height: 50rpx;
+}

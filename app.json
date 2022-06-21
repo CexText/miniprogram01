@@ -1,14 +1,36 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/comp/comp",
+    "pages/todoList/todoList"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#404040",
     "navigationBarTitleText": "project",
-    "navigationBarTextStyle":"white",
+    "navigationBarTextStyle": "white",
     "backgroundColor": "#000"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志"
+      },
+      {
+        "pagePath": "pages/comp/comp",
+        "text": "组件"
+      },
+      {
+        "pagePath": "pages/todoList/todoList",
+        "text": "todo"
+      }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
